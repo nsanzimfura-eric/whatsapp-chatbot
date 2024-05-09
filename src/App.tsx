@@ -1,5 +1,5 @@
 import WaterWaveComp from './pages/WaterWave/WaterWave';
-import Navbar from './pages/navbar/Navbar';
+import Navbar from './components/navbar/Navbar';
 import './styles/index.scss';
 
 
