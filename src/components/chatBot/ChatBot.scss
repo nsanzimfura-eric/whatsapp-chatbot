@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.chatbot {
+  width: 400px;
+  height: 600px;
+  aspect-ratio: 500/600;
+  background-color: $white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  overflow-y: auto;
+  @include scrollbar;
+  @include mq($xlg) {
+    width: 350px;
+  }
+  @include mq($lg) {
+    width: 300px;
+    padding: 15px;
+  }
+}
