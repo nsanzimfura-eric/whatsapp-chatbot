@@ -7,6 +7,7 @@ This is a a whatsApp Chatbot UI project.
 This is a chatbot project that helps to have a short discussion with Patients or other user on their WhatsApp, and then collect their talks, and store them in the a preserved Google sheet document.
 
 ## Projects Structure 🩻
+![image](https://github.com/nsanzimfura-eric/whatsapp-chatbot/assets/91186046/8027b5d2-0fd7-4bb3-9a66-c059db261526)
 
 From the folder structure above: Each folder contains its specific files accordingly
 
