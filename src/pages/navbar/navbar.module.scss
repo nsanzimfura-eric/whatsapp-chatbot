@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: transparent;
+  :global {
+    background-color: transparent;
+    div {
+      background-color: transparent;
+      a {
+        cursor: pointer;
+        font-weight: 800;
+        color: $light;
+        @include transition;
+        &:hover {
+          font-weight: 900;
+        }
+      }
+    }
+  }
+}

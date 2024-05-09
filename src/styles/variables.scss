@@ -1,0 +1,60 @@
+//  colors
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$primary: #4b93e7;
+$blue: #02244a;
+$dark: #040f2b;
+$black: #000000;
+$darkBlue: #082777;
+$blueBold: #1b5cbe;
+$darkOpaque: rgba(2, 2, 2, 0.5);
+$blackOpaque: rgba(0, 0, 0, 0.5);
+$light: #ffffff;
+$white: #ffffff;
+$lightb: #f3f8ff;
+$activeBtnColor: #f0f7ff;
+$light_gray: #e6e6e6;
+$secondary: #e7f1ff;
+$border: #cacaca;
+$lightBlue: #7d9be7;
+$lightBlueOpaque: hsl(198, 79%, 79%, 34%); //A0DBF4
+$leaf: #2b5708;
+$leafOpaque: rgba(43, 87, 8, 0.5);
+$leafLight: hsla(126, 70%, 82%, 34%); //B0F1B6
+$bgLogin: #e6eef8;
+$bgLoginOpaque: hsla(213, 56%, 94%, 30%);
+$gray: #d3e2f4;
+
+// effects colors
+$success: #469607;
+$warning: #f7ac25;
+$error: #d50000;
+
+// fonts families
+
+$poppinsMedium: "Poppins", sans-serif;
+$poppinsRegular: "Poppins", sans-serif;
+$poppinsSemiBold: "Poppins", sans-serif;
+$poppinsBold: "Poppins", sans-serif;
+$poppinsThin: "Poppins", sans-serif;
+$poppinsExtraBold: "Poppins", sans-serif;
+
+//  measurements
+$sm: 480px;
+$small-device: 500px;
+$xxs: 320px;
+$xls: 600px;
+$xlsh: 500px;
+$xms: 375px;
+$md: 768px;
+$lgx: 1024px;
+$lg: 993px;
+$xlg: 1440px;
+$xxlg: 5000px;
+$headervh: 100vh;
+$header-padding: 10vw;
+$divider: calc(4 / 3);
+$xd-width: 1920;
+$xd-height: 1080;
+$width-of-container: calc(85px / $divider);
+$menu-height: 54px;
