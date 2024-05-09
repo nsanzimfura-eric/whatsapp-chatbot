@@ -16,7 +16,9 @@ const WaterWaveComp = () => {
 
                 return (
                     <div className="container bg-none d-flex justify-content-center align-items-center">
-                        <h1>Hello, Plz Answer to these Questions, so that, we help you</h1>
+                        <h1 className='d-flex w-100 px-2 justify-content-center align-items-center'>
+                            Welcome To WhatsApp Chatbot! Please click on the link to WhatsApp and follow the instructions
+                        </h1>
                         <ChatBot />
                     </div>
                 )

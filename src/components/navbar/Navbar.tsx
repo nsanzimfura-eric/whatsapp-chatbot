@@ -13,15 +13,15 @@ const Navbar = () => {
 
     return (
         <main className={styles.navbar}>
-            <div className=" container d-flex align-items-center h-100">
+            <div className="container d-flex justify-content-center justify-content-sm-start align-items-center h-100">
                 <img
-                    className="me-auto"
+                    className="mx-auto mx-sm-unset me-sm-auto"
                     src="/vite.svg"
                     alt="UI"
                     width={40}
                     height={60}
                 />
-                <div className="mx-auto">
+                <div className="mx-auto d-none d-sm-block">
                     {navigation.map((item) => (
                         <a
                             key={item.name}

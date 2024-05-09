@@ -10,12 +10,16 @@
   background-size: cover;
   background-color: transparent;
   .container {
+    background-color: transparent;
     gap: 50px;
+    h1 {
+      @include h3;
+    }
     @include mq($lg) {
       gap: 30px;
     }
-    h1 {
-      @include h3;
+    @include mq($md) {
+      flex-direction: column;
     }
   }
 }

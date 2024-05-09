@@ -4,7 +4,6 @@
 .chatbot {
   width: 400px;
   height: 600px;
-  aspect-ratio: 500/600;
   background-color: $white;
   border-radius: 20px;
   padding: 20px;
@@ -13,9 +12,25 @@
   @include scrollbar;
   @include mq($xlg) {
     width: 350px;
+    height: 400px;
   }
   @include mq($lg) {
     width: 300px;
     padding: 15px;
+  }
+  @include mq($md) {
+    margin-top: 0;
+    width: 300px;
+    height: 300px;
+  }
+  @include mq($xls) {
+    width: 200px;
+    height: 300px;
+  }
+  @include mq($sm) {
+    width: 90%;
+    padding: 10px;
+    aspect-ratio: 16/9;
+    height: auto;
   }
 }

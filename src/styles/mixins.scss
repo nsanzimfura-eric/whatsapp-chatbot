@@ -77,35 +77,6 @@
   @return #{calc($element/16)}rem;
 }
 
-@mixin appBtn {
-  padding: pxToEm(20) pxToEm(26);
-  font-size: pxToEm(16);
-  border: 1px solid transparent;
-  border-radius: 5px;
-  background-color: $success;
-  @include transition;
-  font-family: $poppinsMedium;
-
-  @include mq($xlg) {
-    padding: pxToEm(18) pxToEm(24);
-  }
-
-  @include mq($lg) {
-    padding: pxToEm(16) pxToEm(20);
-  }
-
-  @include mq($md) {
-    padding: pxToEm(15) pxToEm(18);
-    font-size: pxToEm(14);
-  }
-
-  &:hover {
-    background-color: transparent;
-    border-color: $success;
-    color: $light !important;
-  }
-}
-
 @mixin hideScroll {
   &::-webkit-scrollbar {
     display: none;
