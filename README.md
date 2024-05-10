@@ -65,3 +65,4 @@ After you conversation, you are welcome to view your collected input:
 - Bootstrap
 - SCSS/Sass
 - WhatsApp cloud api
+- Libromi: This is new tool, recently launched in 2024, you can see much about it here: [https://libromi.com/](https://libromi.com/)
