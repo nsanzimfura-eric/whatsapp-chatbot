@@ -10,6 +10,9 @@
   margin-top: 50px;
   overflow-y: auto;
   @include scrollbar;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   @include mq($xlg) {
     width: 350px;
     height: 400px;
@@ -32,5 +35,8 @@
     padding: 10px;
     aspect-ratio: 16/9;
     height: auto;
+  }
+  a {
+    color: $primary;
   }
 }
