@@ -7,6 +7,7 @@ This is a a whatsApp Chatbot UI project.
 This is a chatbot project that helps to have a short discussion with Patients or other user on their WhatsApp, and then collect their talks, and store them in the a preserved Google sheet document.
 
 ## Projects Structure 🩻
+
 ![image](https://github.com/nsanzimfura-eric/whatsapp-chatbot/assets/91186046/8027b5d2-0fd7-4bb3-9a66-c059db261526)
 
 From the folder structure above: Each folder contains its specific files accordingly
@@ -52,7 +53,10 @@ npm run dev
 
 ## Usage ⚒️
 
-This is simply like clicking the link displayed in the phone preview design. Then the link will directly open your whatsApp application in your phone, and start your conversation.
+From hosted link: [https://whatsapp-chatbot-09kc.onrender.com/](https://whatsapp-chatbot-09kc.onrender.com/) or locally, This is simply like clicking the link displayed in the phone preview design. Then the link will directly open your whatsApp application in your phone, and start your conversation.
+
+After you conversation, you are welcome to view your collected input:
+[Google sheet as our Database](https://docs.google.com/spreadsheets/d/18qYXZXuB4hYOULBwhvAZ8NYfFug1wg3e6lFhkWa_kJ0/edit?usp=sharing)
 
 ## Technologies 🧑‍💻
 
